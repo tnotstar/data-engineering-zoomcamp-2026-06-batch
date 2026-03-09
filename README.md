@@ -80,6 +80,14 @@ Consider only trips that started on the 15th of November.
 - 162,604
 - 225,768
 
+> **Answer:** **162,604**
+>
+> ```
+> $ uv run ./question3.py
+> ...
+> Viajes el 15 de Noviembre: 162604
+> ```
+
 ## Question 4: Longest trip
 
 What is the length of the longest trip in the dataset in hours?
