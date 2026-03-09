@@ -20,7 +20,7 @@ What's the output?
 > [!NOTE]
 > To install PySpark follow this [guide](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/06-batch/setup/)
 
-> **Answer:** **4.1.1**. By running given test script:
+> **Answer:** **4.1.1**
 >
 > ```
 > $ sudo apt install openjdk-17-jdk-headless
@@ -53,7 +53,7 @@ What is the average size of the Parquet (ending with .parquet extension) Files t
 - 75MB
 - 100MB
 
-> **Answer:**
+> **Answer:** **25MB**
 >
 > ```
 > $ ./download.sh
@@ -96,6 +96,18 @@ What is the length of the longest trip in the dataset in hours?
 - 58.2
 - 90.6
 - 134.5
+
+> **Answer:** **90.6**
+>
+> ```
+> $ uv run ./question4.py
+> ...
+> +-------------------+
+> |max(duration_hours)|
+> +-------------------+
+> |  90.64666666666666|
+> +-------------------+
+> ```
 
 ## Question 5: User Interface
 
