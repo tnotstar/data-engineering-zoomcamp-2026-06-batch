@@ -118,6 +118,16 @@ Spark's User Interface which shows the application's dashboard runs on which loc
 - 4040
 - 8080
 
+> **Answer:** **4040**
+>
+> ```
+> $ uv run ./question5.py
+> ...
+> tcp        LISTEN       0        1                  *:4040                   *:*
+> ...
+> Press <ENTER> to session exit...
+> ```
+
 ## Question 6: Least frequent pickup location zone
 
 Load the zone lookup data into a temp view in Spark:

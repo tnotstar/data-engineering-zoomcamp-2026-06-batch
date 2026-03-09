@@ -12,3 +12,5 @@ df_nov_15 = df_yellow.filter(F.to_date(df_yellow.tpep_pickup_datetime) == "2025-
 # Contamos los registros
 trips_count = df_nov_15.count()
 print(f"Viajes el 15 de Noviembre: {trips_count}")
+
+spark.stop()

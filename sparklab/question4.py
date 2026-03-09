@@ -18,3 +18,5 @@ df_duration = df_yellow.withColumn(
 
 # Obtenemos el valor máximo
 df_duration.select(F.max("duration_hours")).show()
+
+spark.stop()
