@@ -192,7 +192,7 @@ Here's my homework solution: https://github.com/tnotstar/data-engineering-zoomca
 
 Following along with this amazing free course - who else is learning data engineering?
 
-You can sign up here: https://github.com/DataTalksClub/data-engineering-zoomcamp/
+You can sign up here: https://github.com/DataTalksClub/data-engineering-zoomcamp
 ```
 
 ### Example post for Twitter/X
@@ -205,7 +205,7 @@ You can sign up here: https://github.com/DataTalksClub/data-engineering-zoomcamp
 - Parquet file optimization
 - Spark UI on port 4040
 
-My solution: <LINK>
+My solution: https://github.com/tnotstar/data-engineering-zoomcamp-2026-06-batch
 
-Free course by @DataTalksClub: https://github.com/DataTalksClub/data-engineering-zoomcamp/
+Free course by @DataTalksClub: https://github.com/DataTalksClub/data-engineering-zoomcamp
 ```
