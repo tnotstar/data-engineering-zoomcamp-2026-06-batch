@@ -8,7 +8,6 @@ For this homework we will be using the Yellow 2025-11 data from the official web
 wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-11.parquet
 ```
 
-
 ## Question 1: Install Spark and PySpark
 
 - Install Spark
@@ -21,6 +20,25 @@ What's the output?
 > [!NOTE]
 > To install PySpark follow this [guide](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/06-batch/setup/)
 
+> **Answer:** **4.1.1**. By running given test script:
+>
+> ```
+> $ sudo apt install openjdk-17-jdk-headless
+> ...
+> $ curl -LsSf https://astral.sh/uv/install.sh | sh
+> ...
+> $ uv --version
+> uv 0.10.9
+> $ mkdir sparklab && cd sparklab
+> $ uv init
+> Initialized project `sparklab`
+> $ uv add pyspark
+> ...
+> $ code test-pyspark.py
+> ...
+> $ uv run test-pyspark.py 2> /dev/null | grep version
+> Spark version: 4.1.1
+> ```
 
 ## Question 2: Yellow November 2025
 
@@ -35,7 +53,6 @@ What is the average size of the Parquet (ending with .parquet extension) Files t
 - 75MB
 - 100MB
 
-
 ## Question 3: Count records
 
 How many taxi trips were there on the 15th of November?
@@ -47,7 +64,6 @@ Consider only trips that started on the 15th of November.
 - 162,604
 - 225,768
 
-
 ## Question 4: Longest trip
 
 What is the length of the longest trip in the dataset in hours?
@@ -57,7 +73,6 @@ What is the length of the longest trip in the dataset in hours?
 - 90.6
 - 134.5
 
-
 ## Question 5: User Interface
 
 Spark's User Interface which shows the application's dashboard runs on which local port?
@@ -66,8 +81,6 @@ Spark's User Interface which shows the application's dashboard runs on which loc
 - 443
 - 4040
 - 8080
-
-
 
 ## Question 6: Least frequent pickup location zone
 
@@ -91,7 +104,6 @@ If multiple answers are correct, select any
 - Form for submitting: https://courses.datatalks.club/de-zoomcamp-2026/homework/hw6
 - Deadline: See the website
 
-
 ## Learning in Public
 
 We encourage everyone to share what they learned. This is called "learning in public".
@@ -113,7 +125,7 @@ Just finished Module 6 - Batch Processing with Spark. Learned how to:
 
 Processing 4M+ taxi trips with Spark - distributed computing is powerful! 💪
 
-Here's my homework solution: <LINK>
+Here's my homework solution: https://github.com/tnotstar/data-engineering-zoomcamp-2026-06-batch
 
 Following along with this amazing free course - who else is learning data engineering?
 
