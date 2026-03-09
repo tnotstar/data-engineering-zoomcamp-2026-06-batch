@@ -6,7 +6,7 @@ spark = SparkSession.builder.master("local[*]").appName("Zoomcamp_HW6").getOrCre
 # 1. Leer el archivo parquet
 df_yellow = spark.read.parquet("../data/yellow_tripdata_2025-11.parquet")
 
-# Calculamos la diferencia en segundos y la convertimos a horas
+# 2. Calculamos la diferencia en segundos y la convertimos a horas
 df_duration = df_yellow.withColumn(
     "duration_hours",
     (
@@ -16,7 +16,7 @@ df_duration = df_yellow.withColumn(
     / 3600,
 )
 
-# Obtenemos el valor máximo
+# 3. Obtenemos el valor máximo
 df_duration.select(F.max("duration_hours")).show()
 
 spark.stop()

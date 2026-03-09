@@ -145,6 +145,23 @@ Using the zone lookup data and the Yellow November 2025 data, what is the name o
 
 If multiple answers are correct, select any
 
+> **Answer:** **Governor's Island/Ellis Island/Liberty Island** and/or **Arden Heights**
+>
+> ```
+> $ uv run ./question6.py
+> ...
+> +---------------------------------------------+-----+
+> |Zone                                         |count|
+> +---------------------------------------------+-----+
+> |Governor's Island/Ellis Island/Liberty Island|1    |
+> |Eltingville/Annadale/Prince's Bay            |1    |
+> |Arden Heights                                |1    |
+> |Port Richmond                                |3    |
+> |Rikers Island                                |4    |
+> +---------------------------------------------+-----+
+> only showing top 5 rows
+> ```
+
 ## Submitting the solutions
 
 - Form for submitting: https://courses.datatalks.club/de-zoomcamp-2026/homework/hw6
