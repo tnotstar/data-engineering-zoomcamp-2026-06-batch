@@ -53,6 +53,22 @@ What is the average size of the Parquet (ending with .parquet extension) Files t
 - 75MB
 - 100MB
 
+> **Answer:**
+>
+> ```
+> $ ./download.sh
+> ...
+> $ uv run ./question2.py
+> ...
+> $ ls -l ../data/output_yellow_2025_11
+> total 103768
+> -rw-r--r-- 1 codespace codespace        0 Mar  9 01:18 _SUCCESS
+> -rw-r--r-- 1 codespace codespace 26575777 Mar  9 01:18 part-00000-a24da03d-fa83-446b-adb6-24e7685afd3f-c000.snappy.parquet
+> -rw-r--r-- 1 codespace codespace 26554692 Mar  9 01:18 part-00001-a24da03d-fa83-446b-adb6-24e7685afd3f-c000.snappy.parquet
+> -rw-r--r-- 1 codespace codespace 26550812 Mar  9 01:18 part-00002-a24da03d-fa83-446b-adb6-24e7685afd3f-c000.snappy.parquet
+> -rw-r--r-- 1 codespace codespace 26565758 Mar  9 01:18 part-00003-a24da03d-fa83-446b-adb6-24e7685afd3f-c000.snappy.parquet
+> ```
+
 ## Question 3: Count records
 
 How many taxi trips were there on the 15th of November?

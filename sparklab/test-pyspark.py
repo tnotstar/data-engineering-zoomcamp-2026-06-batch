@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 
-spark = SparkSession.builder.master("local[*]").appName("test").getOrCreate()
+spark = SparkSession.builder.master("local[*]").appName("Zoomcamp_HW6").getOrCreate()
 
 print(f"Spark version: {spark.version}")
 
